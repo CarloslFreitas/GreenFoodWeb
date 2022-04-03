@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(342.3deg, #1E4614 7.12%, #F4D03F 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.responsive {
+    position: absolute;
+    top: 500px;
+    right: 0px;
+    width: 700%;
+    height: auto;
+    opacity: 70%;
+    width: 25%;
+}
+
+#letreiroimg {
+    position: absolute;
+    top: -320px;
+    right: -20px;
+    border-radius: 20px;
+    width: 120%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 180px;
+}
+
+.card {
+    background-color: #f4fdf665;
+    padding: 30px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 1px 0px #00000060;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #da6900;
+    text-shadow: 0 0 4px #f4f5f4ec;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 10px 10px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #12791b;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 20px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 9px #ffffffec;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #bd6f09;
+}
+
+.label-float label {
+    color: #c04a05;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    font-weight: bold;
+}
+
+.label-float input:focus+label,
+.label-float input:valid+label {
+    font-size: 13px;
+    margin-top: 0;
+    color: #bb4b00;
+}
+
+button {
+    background-color: transparent;
+    border-color: #058019;
+    color: #2a7009;
+    padding: 7px;
+    font-size: 12pt;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+}
+
+button:hover {
+    background-color: #2dc519;
+    color: #fff;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+hr {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+}
+
+P {
+    color: 272262;
+    font-size: 14pt;
+    text-align: center;
+}
+
+a {
+    color: #af5e1c;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover {
+    color: #35a015;
+}
+
+.fa-eye {
+    position: absolute;
+    top: 35px;
+    right: 13px;
+    cursor: pointer;
+    color: #b84b0c;
+}
