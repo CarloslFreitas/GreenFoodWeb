@@ -22,7 +22,7 @@ body {
 .card {
     background-color: #ffffff80;
     padding: 30px;
-    border-radius: 5%;
+    border-radius: 2%;
     box-shadow: 3px 3px 1px 0px #00000060;
     width: 400px;
 }
@@ -46,15 +46,15 @@ h1 {
 
 #letreiroimg {
     position: absolute;
-    top: -200px;
-    right: 55px;
-    border-radius: 20px;
-    width: 70%;
+    top: 10px;
+    right: 620px;
+    border-radius: 10px;
+    width: 20%;
 }
 
 .label-float input {
     width: 100%;
-    padding: 10px 10px;
+    padding: 2px 10px;
     display: inline-block;
     border: 0;
     border-bottom: 2px solid #12791b;
@@ -122,7 +122,7 @@ button:hover {
 
 .fa-eye {
     position: absolute;
-    top: 35px;
+    top: 25px;
     right: 13px;
     cursor: pointer;
     color: #b84b0c;

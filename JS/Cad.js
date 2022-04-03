@@ -60,7 +60,7 @@ email.addEventListener('keyup', () => {
         validEmail = false
     } else {
         labelEmail.setAttribute('style', 'color: green')
-        labelEmail.innerHTML = '<strong>Email</strong>'
+        labelEmail.innerHTML = 'Email'
         email.setAttribute('style', 'border-color: green')
         validEmail = true
     }
