@@ -20,7 +20,7 @@ body {
 }
 
 .card {
-    background-color: #ffffff80;
+    background-color: #ffffffd3;
     padding: 30px;
     border-radius: 2%;
     box-shadow: 8px 8px 4px 4px #00000060;
@@ -30,10 +30,11 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #c7750a;
+    color: #e98400;
     border-radius: 4px;
     text-shadow: 0 0 4px #f4f5f4ec;
-    background: linear-gradient(342.3deg, #60b34c 7.12%, #d1b02b 100%);
+    box-shadow: 6px 6px 3px 2px #00000060;
+    background: linear-gradient(342.3deg, #6fda55 7.12%, #eec937 100%);
 }
 
 .responsive {

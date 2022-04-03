@@ -14,7 +14,7 @@ body {
 
 nav {
     width: 100%;
-    background: #005723;
+    background: linear-gradient(342.3deg, #e09200 7.12%, #1E4614 35%);
     padding: 0;
     margin-bottom: 0;
     border-radius: 5px;
@@ -130,7 +130,7 @@ h6 {
 
 .column {
     padding: 150px;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(255, 255, 255);
     margin: 5px;
     border-radius: 5px;
 }
@@ -141,7 +141,7 @@ h6 {
     border-color: #FFAE42;
     border-width: 2px;
     text-align: center;
-    background: #005723;
+    background: linear-gradient( #e09200 7.12%, #1E4614 60%);
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FFAE42;
