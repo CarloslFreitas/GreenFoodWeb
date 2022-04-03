@@ -40,15 +40,17 @@ body {
 .card {
     background-color: #f4fdf665;
     padding: 30px;
-    border-radius: 5%;
-    box-shadow: 3px 3px 1px 0px #00000060;
+    border-radius: 2%;
+    box-shadow: 8px 8px 4px 4px #00000060;
 }
 
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #da6900;
+    color: #c7750a;
+    border-radius: 4px;
     text-shadow: 0 0 4px #f4f5f4ec;
+    background: linear-gradient(342.3deg, #60b34c 7.12%, #d1b02b 100%);
 }
 
 .label-float input {
