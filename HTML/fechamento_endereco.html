@@ -35,7 +35,7 @@
                         </li>
                         <li class="nav-item">
                             
-                            <a href="/carrinho.html" class="nav-link text-white">
+                            <a href="/HTML/carrinho.html" class="nav-link text-white">
                                 <i class="fa fa-shopping-cart" style="font-size:24px;line-height:24px;"></i>
                             </a>
                         </li>
@@ -47,24 +47,39 @@
 
     <main class="flex-fill">
         <div class="container">
-            <h1>Instruções Enviadas!</h1>
-                <hr>
-                <p>
-                    Caro cliente,
-                </p>
-                <p>
-                    As instruções para a realização de cadastro de uma nova senha foram enviadas para o e-mail <b>email@dominio.com.br</b>. Abra a mensagem que lhe enviamos e siga as instruções corretamente para cadastrar uma nova senha.
-                </p>
-                <p>
-                    Agradecemos pela confiança em nossos serviços.
-                </p>
-                <p>
-                    Cordialmente,<br>
-                    Central de Relacionamento GreenFood.
-                </p>
-                <p>
-                    <a href="/index.html" class="btn btn-lg btn-danger">Voltar à Página Principal</a>
-                </p>
+            <h1>Selecione o endereço de entrega</h1>
+            <h3 class="mb-4">Clique em <b>continuar</b> para prosseguir para a <b>seleção da forma de pagamento</b></h3> 
+            <div class="d-flex justify-content-around flex-wrap border rounded-top pt-4 pb-4 px-3">
+                <div class="mb-4 mx-2 flex-even">
+                    <input type="radio" class="btn-check" name="endereco" id="end1" autocomplete="off" checked>
+                    <label class="btn btn-outline-success p-4 h-100 w-100" for="end1">
+                        <h3>
+                            <b class="text-dark">Minha Casa</b>
+                            <hr>
+                            <b>Leonardo Malini</b><br>
+                            Rua Felipe dos Santos, 95<br>
+                            Vila Velha/ES<br>
+                        </h3>
+                    </label>
+                </div>
+                <div class="mb-4 mx-2 flex-even">
+                    <input type="radio" class="btn-check" name="endereco" 
+                        autocomplete="off" id="end2">
+                    <label class="btn btn-outline-success p-4 h-100 w-100" for="end2">
+                        <h3>
+                            <b class="text-dark">Meu Trabalho</b><br>
+                            <hr>
+                            <b>Leonardo Malini</b><br>
+                            Avenida Reta da Penha, 201<br>
+                            Vitória/ES<br>
+                        </h3>
+                    </label>
+                </div>
+            </div>
+            <div class="text-end border border-top-0 rounded-bottom p-4 pb-0">
+                <a href="/HTML/carrinho.html" class="btn btn-outline-success btn-lg mb-3">Voltar para o carrinho</a>
+                <a href="/HTML/fechamento_pagamento.html" class="btn btn-success btn-lg ms-2 mb-3">Continuar</a>
+            </div>
         </div>
     </main>
 </body>
