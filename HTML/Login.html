@@ -16,13 +16,13 @@
     <div class='container'>
 
         <div class='card'>
-            <h1> Entrar </h1>
+            <h1> Login </h1>
             <div class='label-float'>
-                <input type='text' id='usuario' paceholder='' required>
+                <input type='text' id='usuario' placeholder='Digite seu email' required>
                 <label for='usuario'>Usuario</label>
             </div>
 
-            <img class="responsive" src="../IMG/logosemwr.png">
+            <!-- <img class="responsive" src="../IMG/logosemwr.png"> -->
 
             <div class='label-float'>
                 <a href="../HTML/Main.html"><img id="letreiroimg" src="../IMG/letreiro.png"></a>
@@ -33,7 +33,7 @@
             </div>
 
             <div class='justify-center'>
-                <button>Entrar</button>
+                <button type="button" onclick="window.location.href='../HTML/Main.html'">Entrar</button><!-- criar lógica de login valido -->
             </div>
 
             <div class='justify-center'>
@@ -42,6 +42,9 @@
 
             <p> Não tem uma conta?
                 <a href='../HTML/Cad.html'> Cadastre-se </a>
+            </p>
+            <p>
+                <a href="/HTML/recuperarSenha.html">Esqueceu a senha?</a> 
             </p>
 
         </div>
