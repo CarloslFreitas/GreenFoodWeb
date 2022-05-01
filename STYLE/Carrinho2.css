@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     margin: 0px;
-    background: linear-gradient(342.3deg, #1E4614 7.12%, #F4D03F 100%);
 }
 
 .header {
     background-color: #FFAE42;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FFAE42;
 }
 
 nav {
     width: 100%;
     background: linear-gradient(342.3deg, #ffb01d 7.12%, #246114 55%);
     padding: 0px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 ul {
@@ -35,14 +33,6 @@ li {
     margin-left: 35px;
     width: 217px;
     height: 8%;
-}
-
-#imgPrincipal {
-    position: absolute;
-    margin-top: -280px;
-    margin-left: 1200px;
-    width: 300px;
-    height: 30%;
 }
 
 nav a {
@@ -66,25 +56,77 @@ nav a:hover {
     border-radius: 7px;
 }
 
-h6 {
-    font-size: 20px;
-    font-family: 'Roboto';
-    text-shadow: 0 0 10px #227700;
-    margin-left: 205px;
-    margin-top: 30px;
+.footer {
+    padding: -8px;
+    border-style: solid;
+    border-color: #FFAE42;
+    border-width: 1px;
+    text-align: center;
+    background: linear-gradient(342.3deg, #ffb01d 7.12%, #246114 55%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FFAE42;
 }
 
-#h1princ {
-    font-size: 65px;
+.column {
+    padding: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+}
+
+h1 {
+    border-bottom: 4px solid rgb(3, 153, 66);
+    margin-left: 80px;
+    margin-right: 130px;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 45px;
     font-family: 'Roboto', sans-serif;
-    text-shadow: 0 0 7px #e99f00;
+    text-shadow: 0 0 7px #b1ff9e;
     margin-left: 130px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    text-shadow: 0 0 10px #227700;
+}
+
+.produto-cart {
+    margin-top: -280px;
+    margin-left: -300px;
+    margin-right: -200px;
+}
+
+.card {
+    background-color: rgb(235, 255, 204);
+    padding: 5px;
+    margin: 3px;
+    text-shadow: 0 0 7px #000000;
+    border-radius: 3px;
+}
+
+#div1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: -150px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 2px #24b300b0;
     font-weight: bolder;
+}
+
+#div2 {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 600px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 2px #24b300b0;
+    font-weight: bolder;
+    font-size: 22px;
 }
 
 .button {
     display: inline-block;
-    padding: 15px 25px;
+    padding: 0px 10px;
     font-size: 24px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -95,10 +137,9 @@ h6 {
     background-color: #3e8e41;
     font-weight: bold;
     border: none;
-    border-radius: 15px;
+    border-radius: 3px;
     box-shadow: 0 7px #FF9C25;
-    margin-left: 160px;
-    margin-bottom: 15px;
+    width: 100%;
 }
 
 .button:hover {
@@ -111,34 +152,19 @@ h6 {
     transform: translateY(4px);
 }
 
-.card {
-    background-color: rgb(255, 254, 254);
-    padding: 5px;
-    margin: 3px;
-    text-shadow: 0 0 7px #000000;
-    border-radius: 3px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.column {
-    padding: 150px;
-    background-color: rgb(255, 255, 255);
-    margin: 5px;
-    border-radius: 3px;
-}
-
-.footer {
-    padding: -8px;
-    border-style: solid;
-    border-color: #FFAE42;
-    border-width: 1px;
+#payment {
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    background: linear-gradient(342.3deg, #ffb01d 7.12%, #246114 55%);
-    margin-top: 15px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #FFAE42;
+    text-decoration: none;
+    outline: none;
+    color: rgb(33, 167, 0);
+    background-color: #e0e0e0;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    width: 100%;
 }

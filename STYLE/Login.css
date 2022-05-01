@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(342.3deg, #1E4614 7.12%, #F4D03F 100%);
+    background: linear-gradient(342.3deg, #ffb01d 7.12%, #246114 55%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -18,14 +18,13 @@ body {
     right: 0px;
     width: 700%;
     height: auto;
-    opacity: 70%;
     width: 25%;
 }
 
 #letreiroimg {
     position: absolute;
     top: -320px;
-    right: -20px;
+    right: -27px;
     border-radius: 20px;
     width: 120%;
 }
@@ -41,7 +40,7 @@ body {
     background-color: #ffffffd3;
     padding: 30px;
     border-radius: 2%;
-    box-shadow: 8px 8px 4px 4px #00000060;
+    box-shadow: 8px 8px 1px 8px #00000060;
 }
 
 h1 {
