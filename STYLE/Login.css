@@ -48,7 +48,6 @@ h1 {
     margin-bottom: 20px;
     color: #c7750a;
     border-radius: 4px;
-    box-shadow: 6px 6px 3px 2px #00000060;
     text-shadow: 0 0 4px #f4f5f4ec;
     background: linear-gradient(342.3deg, #6fda55 7.12%, #eec937 100%);
 }
@@ -109,6 +108,7 @@ button {
     cursor: pointer;
     outline: none;
     transition: all .4s ease-out;
+    width: 100%;
 }
 
 button:hover {

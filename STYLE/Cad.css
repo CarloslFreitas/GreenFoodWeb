@@ -30,10 +30,9 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #d17600;
+    color: #c7750a;
     border-radius: 4px;
     text-shadow: 0 0 4px #f4f5f4ec;
-    box-shadow: 6px 6px 3px 2px #00000060;
     background: linear-gradient(342.3deg, #6fda55 7.12%, #eec937 100%);
 }
 
@@ -54,9 +53,14 @@ h1 {
     width: 20%;
 }
 
+.imgDiv {
+    display: flex;
+    justify-content: center;
+}
+
 .label-float input {
     width: 100%;
-    padding: 2px 10px;
+    padding: 5px 10px;
     display: inline-block;
     border: 0;
     border-bottom: 2px solid #12791b;
@@ -70,7 +74,7 @@ h1 {
 
 .label-float {
     position: relative;
-    padding-top: 20px;
+    padding-top: 10px;
     margin-top: 8%;
     margin-bottom: 5%;
     text-shadow: 0 0 9px #ffffffec;
@@ -106,6 +110,7 @@ button {
     font-size: 12pt;
     font-weight: bold;
     border-radius: 5px;
+    width: 100%;
     margin-top: 20px;
     cursor: pointer;
     outline: none;
@@ -120,14 +125,15 @@ button:hover {
 .justify-center {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .fa-eye {
     position: absolute;
-    top: 25px;
+    top: 20px;
     right: 13px;
     cursor: pointer;
-    color: #b84b0c;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 #msgError {
